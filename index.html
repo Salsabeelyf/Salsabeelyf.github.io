@@ -1,7 +1,81 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Salsabeel's Portfolio</title>
+    </head>
+    <body>
+        
+        <nav class="top-nav">
+            <a class="nav-left" href="#">ᖴᖇOᑎT-Eᑎᗪ</a>
+            <a class="nav-right" id="contact-link" onclick="setTimeout(clickfn, 200);" href="#contact">Contact</a>
+            <a class="nav-right" id="portfolio-link" onclick="setTimeout(clickfn, 200);" href="#portfolio">Portfolio</a>
+            <a class="nav-right" id="about-link" onclick="setTimeout(clickfn, 200);" href="#about">About</a>
+        </nav>    
+        
+        <div class="page-container">
+            <div class="about-container" id="about">
+                <div class="row">
+                    <div class="col-8 about-col-left"><p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.
+                    </p>
+                    <br>
+                    <div class="line"></div>
+                        <br>
+                    <p class="about-job">Web Developer - User Experience Designer - Graphic Artist
+                    </p>
+                    </div>
+                    <div class="col-4 img-col">
+                        <img src="assets/photo3.png">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-container" id="portfolio">
+                <h2>Portfolio</h2>
+                <div class="line"></div>
+                <div class="row">
+                    <div class="col-6 project-col">
+                        <img src="assets/My_Landing_Page.png">
+                    </div>
+                    <div class="col-6 project-col">
+                        <img src="assets/My_CSS_Website.png">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 project-col">
+                        <img src="assets/yoga.png">
+                    </div>
+                    <div class="col-6 project-col">
+                        <img src="assets/tributePage.png">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 project-col">
+                        <img src="assets/DevslopesLoginPortal.png">
+                    </div>
+                </div>
+            </div>
+            <div class="contact-container" id="contact">
+                <h2>Contact Me</h2>
+                <div class="line"></div>
+                <div class="row">
+                    <div class="col-6">
+                        <form>
+                            <input type="text" name="name" placeholder="Name"><br><br>
+                            <input type="text" name="email" placeholder="E-mail Address"><br><br>
+                            <input type="text" name="phoneNum" placeholder="Phone Number"><br><br>
+                            <input type="text" name="msg" placeholder="Message"><br>
+                            <br><br><br><br>
+                            <button type="submit" name="sendBtn">Send</button>
+                        </form>
+                    </div>
+                    <div class="col-6">
+                        <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.<br><br>
+                        I promise to reply A.S.A.P.<br><br><br><br><br>Note: No spam/soliciting pour moi, merci :)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script src="app.js"></script>
+    </body>
 </html>
