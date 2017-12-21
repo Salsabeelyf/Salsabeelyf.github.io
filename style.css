@@ -1,0 +1,157 @@
+/********************   Default   ****************** */
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.row::after {
+  display: table;
+  clear: both; }
+
+.col-12 {
+  width: 100%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-4 {
+  width: 33.33%; }
+
+body {
+  background-color: #461220; }
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+img {
+  width: 100%; }
+
+/********************   NavBar   ****************** */
+nav.top-nav {
+  line-height: 2.5rem;
+  width: 100%;
+  position: fixed;
+  background-color: #8C2F39;
+  padding: 1% 12%;
+  font-size: 1.2rem; }
+  nav.top-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0 1%; }
+
+.top-nav .nav-left {
+  color: #fed0bb;
+  font-size: 1.5rem; }
+
+.top-nav a[class="nav-right"] {
+  float: right;
+  padding: 2px 25px;
+  text-align: center;
+  display: inline-block; }
+  .top-nav a[class="nav-right"]:hover {
+    box-shadow: -1px 0px 3px 1px rgba(0, 0, 0, 0.15), 1px 2px 1px 0px rgba(0, 0, 0, 0.15); }
+
+.top-nav .current {
+  float: right;
+  padding: 2px 25px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgba(254, 208, 187, 0.5); }
+
+/********************   Content   ****************** */
+.page-container {
+  background-color: rgba(254, 208, 187, 0.5);
+  display: block;
+  margin: 0 10%; }
+
+/********************   About   ****************** */
+.about-container {
+  padding: 13% 4.3% 7%; }
+
+.about-container .about-col-left {
+  padding-left: 2%;
+  padding-right: 2%;
+  color: white;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  margin-top: -4%;
+  text-align: right; }
+  .about-container .about-col-left .about-job {
+    font-size: 1.46rem;
+    text-align: left; }
+  .about-container .about-col-left .line {
+    background-color: white;
+    width: 83%;
+    height: 0.3rem;
+    float: right; }
+
+.img-col {
+  margin: 1% 0; }
+  .img-col img {
+    border: 1% solid #C0C0C0;
+    box-shadow: -1px -1px 20px 1px rgba(0, 0, 0, 0.15), 1px 1px 10px 1px rgba(105, 105, 105, 0.8);
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 100%; }
+
+/********************   Portfolio   ****************** */
+.portfolio-container {
+  background-color: white;
+  color: #461220;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  box-shadow: -1px -1px 20px 1px rgba(0, 0, 0, 0.15), 1px 1px 10px 1px rgba(105, 105, 105, 0.8); }
+  .portfolio-container .line {
+    background-color: #461220;
+    width: 45%;
+    height: 0.4rem;
+    float: center;
+    display: block;
+    margin: auto; }
+
+.portfolio-container h2 {
+  font-size: 2.3rem;
+  line-height: 7rem;
+  text-transform: uppercase; }
+
+.portfolio-container img {
+  max-height: 400px;
+  max-width: 540px;
+  display: block;
+  margin: auto; }
+
+.project-col {
+  padding: 4%; }
+
+/********************   Contact    *********************** */
+.contact-container {
+  background-color: white;
+  color: #461220;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  box-shadow: -1px -1px 20px 1px rgba(0, 0, 0, 0.15), 1px 1px 10px 1px rgba(105, 105, 105, 0.8); }
+  .contact-container .line {
+    background-color: #461220;
+    width: 45%;
+    height: 0.4rem;
+    float: center;
+    display: block;
+    margin: auto; }
+
+.contact-container h2 {
+  font-size: 2.3rem;
+  line-height: 7rem;
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */
