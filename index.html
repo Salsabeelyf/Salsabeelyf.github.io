@@ -6,18 +6,26 @@
     </head>
     <body>
         
-        <nav class="top-nav">
+        <nav class="top-nav" id="dropdownClick">
             <a class="nav-left" href="#">Sαℓѕαвєєℓ Sαℓαн</a>
-            <a class="nav-right" href="https://drive.google.com/file/d/1JxnkPweGxRfYlrb0e_eEJW1d-QBOVN0R/view?usp=sharing" target="_blank">Resume</a>
-            <a class="nav-right" id="skills-link" onclick="setTimeout(clickfn, 200);" href="#skills">Skills</a>
-            <a class="nav-right" id="portfolio-link" onclick="setTimeout(clickfn, 200);" href="#portfolio">Portfolio</a>
-            <a class="nav-right" id="about-link" onclick="setTimeout(clickfn, 200);" href="#about">About</a>
+            <br>
+            <div class="list">
+                <ul>
+                    <li><a class="nav-right" id="about-link" onclick="setTimeout(clickfn, 200);" href="#about">About</a>
+                    </li>
+                    <li><a class="nav-right" id="portfolio-link" onclick="setTimeout(clickfn, 200);" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li><a class="nav-right" id="skills-link" onclick="setTimeout(clickfn, 200);" href="#skills">Skills</a></li>
+                    <li><a class="nav-menu" href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a>
+                    </li>
+                </ul>
+            </div>
         </nav>    
         
         <div class="page-container">
             <div class="about-container" id="about">
                 <div class="row">
-                    <div class="col-8 about-col-left"><p>Fresh graduate of computer science, willing to be a Front-End Web developer.
+                    <div class="col-8 about-col-left"><p>Computer Science Fresh Graduate, willing to be a Front-End developer.
                     Fast and self learner, seeking knowledge and hoping to leave a remarkable imprint in this field.
                     </p>
                     <br>
@@ -36,92 +44,132 @@
                 <div class="line"></div>
                 <div class="row">
                     <div class="col-6 project-col">
-                        <a href="https://codepen.io/Salsabeelsay/pen/PEzrpO">
-                        <img src="assets/My_Landing_Page.png">
-                        </a>
+                        <div class="proj-item">
+                            <a href="https://codepen.io/Salsabeelsay/pen/PEzrpO" target="_blank">
+                                <img src="assets/My_Landing_Page.png">
+                            </a>
+                        </div>
                     </div>
                     <div class="col-6 project-col">
-                        <a href="https://codepen.io/Salsabeelsay/pen/baeyLq">
-                            <img src="assets/My_CSS_Website.png">
-                        </a>
+                        <div class="proj-item">
+                            <a href="https://codepen.io/Salsabeelsay/pen/baeyLq" target="_blank">
+                                <img src="assets/My_CSS_Website.png">
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-6 project-col">
-                        <a href="https://codepen.io/Salsabeelsay/pen/Mredmr">
-                            <img src="assets/yoga.png">
-                        </a>
+                        <div class="proj-item">
+                            <a href="https://codepen.io/Salsabeelsay/pen/Mredmr" target="_blank">
+                                <img src="assets/yoga.png">
+                            </a>
+                        </div>
                     </div>
                     <div class="col-6 project-col">
-                        <a href="https://codepen.io/Salsabeelsay/pen/vpNaMM">
-                            <img src="assets/tributePage.png">
-                        </a>
+                        <div class="proj-item">
+                            <a href="https://codepen.io/Salsabeelsay/pen/vpNaMM" target="_blank">
+                                <img src="assets/tributePage.png">
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 project-col">
-                        <a href="https://codepen.io/Salsabeelsay/pen/BJzebZ">
-                            <img src="assets/DevslopesLoginPortal.png">
-                        </a>
+                        <div class="proj-item">
+                            <a href="https://codepen.io/Salsabeelsay/pen/BJzebZ" target="_blank">
+                                <img src="assets/DevslopesLoginPortal.png">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="skills-container" id="skills">
-                <h2>front-end and personal skills</h2>
-                <div class="line"></div>
                 <div class="row">
                     <div class="col-6">
-                        <ul>
-                            <li>
-                                <div class="item"><img src="assets/item.png"> HTML5</div>
-                            </li>
-                            <li>
-                                <div class="item"><img src="assets/item.png"> CSS
-                                <ul>
-                                    <li><img src="assets/add.png"> Sass</li>
-                                </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="item"><img src="assets/item.png">JavaScript</div>
-                            </li>
-                        </ul>
+                        <h2>How much do I<br> know in<br> front-end?</h2>
+                        <div class="line"></div>
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <div class="item"><img src="assets/item.png"> HTML5</div>
+                                </li>
+                                <li>
+                                    <div class="item"><img src="assets/item.png"> CSS
+                                    <ul>
+                                        <li><img src="assets/add.png"> Sass </li>
+                                        <li><img src="assets/add.png"> SMACSS<div class="sub-item"> (Beginner)</div></li>
+                                        <li><img src="assets/add.png"> Bootstrap<div class="sub-item"> (Beginner)</div></li>
+                                    </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item"><img src="assets/item.png">JavaScript</div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="v-line"></div>
                     <div class="col-6 right-col">
-                        <ul>
-                            <li>
-                                <div class="item"><img src="assets/item.png"> Teamwork</div>
-                            </li>
-                            <li>
-                                <div class="item"><img src="assets/item.png"> Flexible
-                                </div>
-                            </li>
-                            <li>
-                                <div class="item"><img src="assets/item.png">Supportive</div>
-                            </li>
-                            <li>
-                                <div class="item"><img src="assets/item.png"> Challenge seeker
-                                </div>
-                            </li>
-                        </ul>
+                        <h2>How am I like<br> in <br> Person?</h2>
+                        <div class="line"></div>
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <div class="item"><img src="assets/item.png"> Teamwork</div>
+                                </li>
+                                <li>
+                                    <div class="item"><img src="assets/item.png"> Flexible
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item"><img src="assets/item.png"> Supportive</div>
+                                </li>
+                                <li>
+                                    <div class="item"><img src="assets/item.png"> Challenge seeker
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="contact-container" id="contact">
             <div class="row">
-                <div class="col-3">
-                    <a href="https://codepen.io/Salsabeelsay/"><img src="assets/codepen.png"></a>
+                <div class="col-8">
+                    <h2>ᴾᴿᴱᵛᴵᴱᵂ ᴹᵞ <a href="https://drive.google.com/file/d/1JxnkPweGxRfYlrb0e_eEJW1d-QBOVN0R/view?usp=sharing" target="_blank">ᴿᴱˢᵁᴹᴱ</a></h2>
                 </div>
-                <div class="col-3">
-                    <a href="https://github.com/salsabeelyf"><img src="assets/github.png"></a>
-                </div>
-                <div class="col-3">
-                    <a href="https://www.linkedin.com/in/salsabeel-salah-04204992/"><img src="assets/linkedin1.png"></a>
-                </div>
-                <div class="col-3">
-                    <a href="https://wuzzuf.net/me/salsabeelsay"><img src="assets/wuzzuf.png"></a>
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-3">
+    
+                            <div class="img-item">
+                                <a href="https://codepen.io/Salsabeelsay/" target="_blank"><img src="assets/codepen.png"></a>
+                            </div>
+    
+                        </div>
+                        <div class="col-3">
+    
+                            <div class="img-item">
+                                <a href="https://github.com/salsabeelyf" target="_blank"><img src="assets/github.png"></a>
+                            </div>
+    
+                        </div>
+                        <div class="col-3">
+    
+                            <div class="img-item">
+                                <a href="https://www.linkedin.com/in/salsabeel-salah-04204992/" target="_blank"><img src="assets/linkedin1.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+    
+                            <div class="img-item">
+                                <a href="https://wuzzuf.net/me/salsabeelsay" target="_blank"><img src="assets/wuzzuf.png"></a>
+                            </div>
+    
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -129,7 +177,7 @@
             <h1>ᵀᴴᴵˢ ᴾᴬᴳᴱ ᴵˢ ᶜᴼᴰᴱᴰ ᴮᵞ ᴹᴱ </h1>
         </div>
         
-  
+    
         <script src="app.js"></script>
     </body>
 </html>

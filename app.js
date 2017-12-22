@@ -75,3 +75,16 @@ window.onscroll = function()
     }
 
 }
+
+function dropdownmenu(){
+    var navId = document.getElementById("dropdownClick");
+    if ( navId.className === "top-nav" )
+        {
+            navId.className += " responsive";
+        }
+    else
+        {
+            navId.className = "top-nav";
+        }
+            
+}
