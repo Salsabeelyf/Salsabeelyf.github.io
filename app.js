@@ -1,6 +1,6 @@
 var about = document.getElementById("about-link");
 var port = document.getElementById("portfolio-link");
-var contact = document.getElementById("contact-link");
+var skills = document.getElementById("skills-link");
 
 var clickfn = function(){
     if ( document.URL.includes("#about")) {
@@ -10,8 +10,8 @@ var clickfn = function(){
         if(port.className.includes("current")){
             port.className = "nav-right";
         }
-        if(contact.className.includes("current")){
-            contact.className = "nav-right";
+        if(skills.className.includes("current")){
+            skills.className = "nav-right";
         }
     }else if( document.URL.includes("#portfolio")) { 
         if(about.className.includes("current")){
@@ -20,19 +20,19 @@ var clickfn = function(){
         if(!port.className.includes("current")){
             port.className += " current";
         }
-        if(contact.className.includes("current")){
-            contact.className = "nav-right";
+        if(skills.className.includes("current")){
+            skills.className = "nav-right";
         }
     }
-    else if ( document.URL.includes("#contact")) {
+    else if ( document.URL.includes("#skills")) {
         if(about.className.includes("current")){
             about.className = "nav-right";
         }
         if(port.className.includes("current")){
             port.className = "nav-right";
         }
-        if(!contact.className.includes("current")){
-            contact.className += " current";
+        if(!skills.className.includes("current")){
+            skills.className += " current";
         }
     }
 };
@@ -46,8 +46,8 @@ window.onscroll = function()
         if(port.className.includes("current")){
             port.className = "nav-right";
         }
-        if(!contact.className.includes("current")){
-            contact.className += " current";
+        if(!skills.className.includes("current")){
+            skills.className += " current";
         }
    }
     else if(document.body.scrollTop > 400 || document.documentElement.scrollTop > 400){
@@ -57,8 +57,8 @@ window.onscroll = function()
         if(!port.className.includes("current")){
             port.className += " current";
         }
-        if(contact.className.includes("current")){
-            contact.className = "nav-right";
+        if(skills.className.includes("current")){
+            skills.className = "nav-right";
         }
     }
     else if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0)
@@ -69,8 +69,8 @@ window.onscroll = function()
         if(port.className.includes("current")){
             port.className = "nav-right";
         }
-        if(contact.className.includes("current")){
-            contact.className = "nav-right";
+        if(skills.className.includes("current")){
+            skills.className = "nav-right";
         }
     }
 

@@ -22,6 +22,9 @@
 .col-4
     width: 33.33%
 
+.col-3
+    width: 25%
+        
 body
     background-color: #461220
     
@@ -90,15 +93,15 @@ nav.top-nav
     font-size: 1.3rem
     line-height: 1.7rem
     margin-top: -4%
-    text-align: right
+    text-align: center
     .about-job
         font-size: 1.46rem
-        text-align: left
+        text-align: center
     .line
         background-color: white
         width: 83%
         height: .3rem
-        float: right
+        margin: auto
     
     
 .img-col
@@ -142,24 +145,76 @@ nav.top-nav
 .project-col
     padding: 4%
     
-/********************   Contact    ************************/
+/********************   Skills    ************************/
 
-.contact-container
+.skills-container
     background-color: white
     color: #461220
-    text-align: center
     padding-left: 3%
     padding-right: 3%
     box-shadow: -1px/*H*/ -1px/*V*/ 20px/*B*/ 1px/*S*/ rgba(0/*Sh*/,0/*BG*/, 0/*BX*/,.15/*Op*/ ), 1px 1px 10px 1px rgba(105,105,105,0.8)
     .line
         background-color: #461220
         width: 45%
-        height: .4rem
+        height: .34rem
         float: center
         display: block
         margin: auto
+    .v-line
+        background-color: #461220
+        height: 18rem
+        width: .34rem
+        margin: 10% -1% 10% 0
         
-.contact-container h2
-    font-size: 2.3rem
+.skills-container .col-6
+    padding: 0 10% 
+    
+.skills-container .right-col
+    padding-top: 2%
+    padding-right: 0
+    padding-left: 8.45%
+    
+.skills-container h2
+    font-size: 2rem
     line-height: 7rem
     text-transform: uppercase
+    text-align: center
+    
+.skills-container ul
+    list-style: none
+    line-height: 4rem
+    margin: 0 20%
+    
+.item
+    font-size: 1.7rem
+    ul li
+        font-size: 1.5rem
+        margin: -3% 10% 2.5%
+        line-height: 2rem
+        img
+            margin: 0 2%
+            width: 1.5rem
+    img
+        margin: 0 2%
+        width: 1.5rem
+        
+        
+/*************** Contact ********************/
+
+.contact-container
+    background-color: rgba(254,208,187,0.6) 
+    padding: 2% 0 1.5%
+    padding-left: 13%
+    box-shadow: -1px/*H*/ -1px/*V*/ 10px/*B*/ 1px/*S*/ rgba(0/*Sh*/,0/*BG*/, 0/*BX*/,.15/*Op*/ ), 1px 1px 5px 1px rgba(105,105,105,0.8)
+    img
+        width: 5rem
+        border-radius: 10%
+        
+
+.footer
+    padding: 1.5% 0 0.5%
+    width: 100%
+    background-color: #4e060e	
+    color: rgba(254,208,187,0.8)
+    text-align: center
+    font-weight: 400
