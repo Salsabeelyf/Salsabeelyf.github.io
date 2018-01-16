@@ -65,17 +65,19 @@ nav.top-nav {
   color: #fed0bb;
   font-size: 1.6rem; }
 
-.top-nav ul li a.nav-right {
-  padding: 2px 25px;
+.top-nav ul li {
   text-align: center; }
-  .top-nav ul li a.nav-right:hover {
+  .top-nav ul li:hover {
     box-shadow: -1px 0px 3px 1px rgba(0, 0, 0, 0.15), 1px 2px 1px 0px rgba(0, 0, 0, 0.15); }
+  .top-nav ul li a {
+    padding: 2px 25px; }
 
 .top-nav .current {
-  padding: 2px 25px;
   text-align: center;
   display: inline-block;
   background-color: rgba(254, 208, 187, 0.5); }
+  .top-nav .current a {
+    padding: 2px 25px; }
 
 .top-nav .nav-menu {
   display: none;

@@ -12,22 +12,22 @@
 
 .col-12
     width: 100%
-    
+
 .col-8
     width: 66.66%
 
 .col-6
     width: 50%
-        
+
 .col-4
     width: 33.33%
 
 .col-3
     width: 25%
-        
+
 body
     background-color: #461220
-    
+
 *
     font-family: sans-serif
     box-sizing: border-box
@@ -37,7 +37,7 @@ body
 img
     width: 100%
 
-    
+
 /********************   NavBar   *******************/
 
 nav.top-nav
@@ -45,7 +45,7 @@ nav.top-nav
     width: 100%
     position: fixed
     z-index: 1
-    //background-color: #B23A48	
+    //background-color: #B23A48
     background-color: #8C2F39
     padding: 1% 12%
     font-size: 1.2rem
@@ -53,36 +53,38 @@ nav.top-nav
         color: white
         text-decoration: none
         font-weight: 700
-        padding: 0 1% 
-    
+        padding: 0 1%
+
 .top-nav .list
     display: inline
-    
+
 .top-nav ul
     list-style-type: none
     float: right
     li
         display: inline-block
-    
+
 .top-nav .nav-left
     display: inline
     color: rgba(254,208,187,1)
-    font-size: 1.6rem 
-        
-.top-nav ul li a.nav-right
+    font-size: 1.6rem
+
+.top-nav ul li
     //float: right
-    padding: 2px 25px
     text-align: center
     &:hover
         box-shadow: -1px/*H*/ 0px/*V*/ 3px/*B*/ 1px/*S*/ rgba(0/*Sh*/,0/*BG*/, 0/*BX*/,.15/*Op*/ ), 1px 2px 1px 0px rgba(0,0,0,0.15)
-        
+    a
+        padding: 2px 25px
+
 .top-nav .current
     //float: right
-    padding: 2px 25px
     text-align: center
     display: inline-block
-    background-color: rgba(254,208,187,0.5) 
-    
+    background-color: rgba(254,208,187,0.5)
+    a
+        padding: 2px 25px
+
 .top-nav .nav-menu
     display: none
     position: fixed
@@ -95,8 +97,8 @@ nav.top-nav
 /********************   Content   *******************/
 
 .page-container
-    //background-color: rgba(252,185,178,0.5) 
-    background-color: rgba(254,208,187,0.5) 
+    //background-color: rgba(252,185,178,0.5)
+    background-color: rgba(254,208,187,0.5)
     display: block
     margin: 0 10%
     z-index: -1
@@ -105,7 +107,7 @@ nav.top-nav
 
 .about-container
     padding: 13% 4.3% 7%
-        
+
 .about-container .about-col-left
     padding-left: 2%
     padding-right: 2%
@@ -122,8 +124,8 @@ nav.top-nav
         width: 83%
         height: .3rem
         margin: auto
-    
-    
+
+
 .img-col
     margin: 1% 0
     img
@@ -133,7 +135,7 @@ nav.top-nav
         display: block
         margin: auto
         width: 100%
-        
+
 /********************   Portfolio   *******************/
 
 .portfolio-container
@@ -155,23 +157,23 @@ nav.top-nav
     font-size: 2.3rem
     line-height: 7rem
     text-transform: uppercase
-    
+
 .portfolio-container h3
     line-height: 5rem
     color: black
     font-weight: 550
-    
+
 .portfolio-container img
     max-height: 400px
     max-width: 540px
     display: block
     margin: auto
-    
+
 .project-col
     padding: 4%
     .proj-item:hover
         opacity: 0.5
-    
+
 /********************   Skills    ************************/
 
 .skills-container
@@ -191,27 +193,27 @@ nav.top-nav
         background-color: #461220
         height: 12rem
         width: .34rem
-        margin: 26% -1% 10% 0 
+        margin: 26% -1% 10% 0
     .col-6
         padding-top: 3.25%
 
-        
+
 .skills-container .right-col
     padding-top: 0
-    
+
 .skills-container h2
     font-size: 1.7rem
     line-height: 3rem
     text-transform: uppercase
     text-align: center
-    
+
 .skills-container ul
     list-style: none
     line-height: 4rem
-    
+
 .skills-container .list
     margin: 7% 0 10% 32%
-    
+
 .item
     font-size: 1.7rem
     ul li
@@ -224,16 +226,16 @@ nav.top-nav
     img
         margin: 0 2%
         width: 1.5rem
-        
+
     .sub-item
         font-size: 1.3rem
         display: inline
-        
-        
+
+
 /*************** Contact ********************/
 
 .contact-container
-    background-color: rgba(254,208,187,0.6) 
+    background-color: rgba(254,208,187,0.6)
     padding: 2% 0 1.5%
     //padding-left: 13%
     box-shadow: -1px/*H*/ -1px/*V*/ 10px/*B*/ 1px/*S*/ rgba(0/*Sh*/,0/*BG*/, 0/*BX*/,.15/*Op*/ ), 1px 1px 5px 1px rgba(105,105,105,0.8)
@@ -253,57 +255,57 @@ nav.top-nav
         color: #4e060e
         &:hover
             color: rgba(254,208,187,0.8)
-    
+
 .contact-container .col-4
     padding-right: 1%
-        
+
 .contact-container .col-3
     text-align: center
 
 .footer
     padding: 1% 0
     width: 100%
-    background-color: #4e060e	
+    background-color: #4e060e
     color: rgba(254,208,187,0.8)
     text-align: center
     font-weight: 400
     font-size: .9rem
-    
-    
+
+
 /**************************************************************************************************/
 /*******************************    Mobile    ************************************/
 @media screen and (max-width: 1219px)
     .skills-container h2
         font-size: 1.7rem
-        
+
     .skills-container .item
         font-size: 1.5rem
-        ul li 
+        ul li
             font-size: 1.3rem
-            
+
     .skills-container .list
         margin-top: 4%
 
 @media screen and (max-width: 1143px)
     .skills-container .item
         font-size: 1.4rem
-        ul li 
+        ul li
             font-size: 1.2rem
-    
+
 //@media screen and (max-width: 1218px)
 //    .skills-container .right-col
 //        padding-bottom: 0
-        
+
 //@media screen and (max-width: 1211px)
 //    .skills-container .right-col
 //        padding-bottom: 7%
-        
+
 @media screen and (max-width: 1106px)
     .skills-container .item
         line-height: 3.3rem
-        ul li 
+        ul li
             font-size: 1.1rem
-    
+
     .skills-container .right-col
         padding-bottom: 2%
 
@@ -314,30 +316,30 @@ nav.top-nav
 @media screen and (max-width: 1039px)
     .skills-container .list
         margin-left: 29%
-    
+
 @media screen and (max-width: 1024px)
     .skills-container .list
         margin-left: 28%
-        
+
 @media screen and (max-width: 1010px)
     .portfolio-container h2
         font-size: 2rem
         line-height: 5rem
-        
+
     .portfolio-container .line
-        width: 30%      
+        width: 30%
 
     .skills-container .list
         margin-left: 27%
-    
+
 @media screen and (max-width: 997px)
     .skills-container .list
         margin-left: 26%
-        
+
 @media screen and (max-width: 982px)
     .skills-container .list
         margin-left: 25%
-        
+
 @media screen and (max-width: 970px)
     .skills-container .list
         margin-left: 24%
@@ -368,60 +370,60 @@ nav.top-nav
                 font-size: 1rem
                 .sub-item
                     font-size: 1rem
-    
+
     .skills-container .right-col
         padding-bottom: 4%
-        
+
 @media screen and (max-width: 840px)
     // navbar
     .top-nav ul li a.nav-right
         display: none
-    
+
     .top-nav ul li a.nav-menu
         display: block
         float: right
-        
+
     .responsive ul li a.nav-right
         display: block
         text-align: left
         padding-left: 7%
-        
+
     .responsive .nav-menu
         position: fixed
         top: 8px
         right: 90.5px
-        
+
     .responsive br
         display: block
-    
+
     .responsive .list
         float: left
-        
+
     .responsive
         position: relative
         diplay: block
         ul li
             display: block
-        
+
     // about
     .about-container .about-col-left
         padding-top: 4%
-        
+
     //contact
     .contact-container img
         width: 3.5rem
-        
+
     .contact-container h2
         font-size: 2rem
-    
+
     //footer
     .footer h1
         font-size: 1.5rem
-        
+
 @media screen and (max-width: 777px)
     .skills-container .list
         margin-left: 19%
-        
+
     .portfolio-container h3
         line-height: 3.5rem
         font-size: 1rem
@@ -441,18 +443,18 @@ nav.top-nav
 @media screen and (max-width: 740px)
     .skills-container .list
         margin-left: 14%
-    
+
     .contact-container h2
         font-size: 1
-        
-    
+
+
     .skills-container .v-line
         margin-right: -2%
 
 @media screen and (max-width: 723px)
     .skills-container .list
         margin-left: 13%
-        
+
 @media screen and (max-width: 715px)
     .skills-container .list
         margin-left: 12%
@@ -468,14 +470,14 @@ nav.top-nav
 @media screen and (max-width: 684px)
     .skills-container .list
         margin-left: 8%
-        
+
 @media screen and (max-width: 680px)
     .col-8, .col-6, .col-4
         width: 100%
-    
+
     .about-container .about-col-left
         padding-top: 11%
-            
+
     .about-container .img-col
         margin-top: 6%
         img
@@ -488,24 +490,24 @@ nav.top-nav
         display: block
         margin: auto
         margin-top: -5%
-        
+
     .skills-container .list
         padding-left: 15%
-        
+
 @media screen and (max-width: 450px)
     .about-container .about-col-left
         padding-top: 18%
-        
+
     .top-nav .nav-menu
         right: 50px
-        
+
     .portfolio-container h2
         font-size: 1.6rem
         line-height: 4rem
-        
+
     .portfolio-container .line
         height: 0.3rem
-        
+
 @media screen and (max-width: 411px)
     .about-container .about-col-left
         padding-top: 18%
@@ -516,7 +518,7 @@ nav.top-nav
         .about-job
             margin-top: -7%
             font-size: 1.5rem
-                
+
     .skills-container
         h2
             font-size: 1.3rem
@@ -528,14 +530,14 @@ nav.top-nav
                 font-size: 0.99rem
                 .sub-item
                     font-size: 0.99rem
-                    
+
     .contact-container h2
         font-size: 1.8rem
-            
+
     //footer
     .footer h1
         font-size: 1.2rem
-        
+
 @media screen and (max-width: 407px)
         .skills-container .list
             margin-left: 1%
