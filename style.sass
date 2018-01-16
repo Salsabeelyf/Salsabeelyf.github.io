@@ -63,6 +63,9 @@ nav.top-nav
     float: right
     li
         display: inline-block
+        a
+            display: block
+            width: 100%
 
 .top-nav .nav-left
     display: inline
@@ -376,17 +379,17 @@ nav.top-nav
 
 @media screen and (max-width: 840px)
     // navbar
-    .top-nav ul li a.nav-right
+    .top-nav .nav-right
         display: none
 
-    .top-nav ul li a.nav-menu
+    .top-nav .nav-menu
         display: block
         float: right
 
-    .responsive ul li a.nav-right
+    .responsive .nav-right
         display: block
         text-align: left
-        padding-left: 7%
+        //padding-left: 7%
 
     .responsive .nav-menu
         position: fixed
@@ -401,7 +404,7 @@ nav.top-nav
 
     .responsive
         position: relative
-        diplay: block
+        display: block
         ul li
             display: block
 

@@ -59,6 +59,9 @@ nav.top-nav {
   float: right; }
   .top-nav ul li {
     display: inline-block; }
+    .top-nav ul li a {
+      display: block;
+      width: 100%; }
 
 .top-nav .nav-left {
   display: inline;
@@ -332,17 +335,16 @@ nav.top-nav {
   .skills-container .right-col {
     padding-bottom: 4%; } }
 @media screen and (max-width: 840px) {
-  .top-nav ul li a.nav-right {
+  .top-nav .nav-right {
     display: none; }
 
-  .top-nav ul li a.nav-menu {
+  .top-nav .nav-menu {
     display: block;
     float: right; }
 
-  .responsive ul li a.nav-right {
+  .responsive .nav-right {
     display: block;
-    text-align: left;
-    padding-left: 7%; }
+    text-align: left; }
 
   .responsive .nav-menu {
     position: fixed;
@@ -357,7 +359,7 @@ nav.top-nav {
 
   .responsive {
     position: relative;
-    diplay: block; }
+    display: block; }
     .responsive ul li {
       display: block; }
 
