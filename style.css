@@ -182,14 +182,12 @@ nav.top-nav {
     margin: auto; }
   .skills-container .v-line {
     background-color: #461220;
-    height: 12rem;
+    height: 15rem;
     width: 0.34rem;
     margin: 26% -1% 10% 0; }
   .skills-container .col-6 {
-    padding-top: 3.25%; }
-
-.skills-container .right-col {
-  padding-top: 0; }
+    padding-top: 10%;
+    height: 690px; }
 
 .skills-container h2 {
   font-size: 1.7rem;
@@ -425,6 +423,9 @@ nav.top-nav {
     margin-top: 6%; }
     .about-container .img-col img {
       width: 70%; }
+
+  .skills-container .col-6 {
+    height: 100%; }
 
   .skills-container .v-line {
     width: 70%;
